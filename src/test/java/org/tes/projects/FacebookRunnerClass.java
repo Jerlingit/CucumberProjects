@@ -18,5 +18,6 @@ public class FacebookRunnerClass {
 	public static void test() {
 		FbReport.report("C:\\Users\\ADMIN-SHIVA\\eclipse-workspace\\CucumberProjects\\src\\test\\resources\\Features\\Report\\report2.json");
 	}
+	
 }
 
