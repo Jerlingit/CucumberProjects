@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Facebook login credentials verification",
+        "description": "",
+        "id": "facebook-login-verification;facebook-login-credentials-verification;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17033928000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on facebook login page",
+            "match": {
+              "location": "Facebook.user_is_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 495051400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"Jerlin\" and \"Jerlin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jerlin\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Jerlin@123\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Facebook.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190365100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Facebook.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should verify the success message",
+            "match": {
+              "location": "Facebook.user_should_verify_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Facebook login credentials verification",
+        "description": "",
+        "id": "facebook-login-verification;facebook-login-credentials-verification;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16007230200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on facebook login page",
+            "match": {
+              "location": "Facebook.user_is_on_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 848418900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"Jeyam\" and \"Jerlin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jeyam\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Jerlin@123\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Facebook.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7661669200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Facebook.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should verify the success message",
+            "match": {
+              "location": "Facebook.user_should_verify_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login verification",
+    "description": "",
+    "id": "facebook-login-verification",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/facebooklogin.feature",
+    "tags": []
+  }
+]

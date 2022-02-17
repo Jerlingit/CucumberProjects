@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Hotel login details verification",
+        "description": "",
+        "id": "hotel-app-login-page;hotel-login-details-verification;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23320337000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the hotel login page",
+            "match": {
+              "location": "HotelAppLogin.user_is_on_the_hotel_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 534697500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must enter \"JerlinTest\" and \"1B157R\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JerlinTest\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"1B157R\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelAppLogin.user_must_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3043451000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click login button",
+            "match": {
+              "location": "HotelAppLogin.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User login verified",
+            "match": {
+              "location": "HotelAppLogin.user_login_verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Hotel login details verification",
+        "description": "",
+        "id": "hotel-app-login-page;hotel-login-details-verification;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21661988800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the hotel login page",
+            "match": {
+              "location": "HotelAppLogin.user_is_on_the_hotel_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 820977700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must enter \"Jeyam\" and \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jeyam\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Test@123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HotelAppLogin.user_must_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 649742500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click login button",
+            "match": {
+              "location": "HotelAppLogin.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User login verified",
+            "match": {
+              "location": "HotelAppLogin.user_login_verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Hotel app login page",
+    "description": "",
+    "id": "hotel-app-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
